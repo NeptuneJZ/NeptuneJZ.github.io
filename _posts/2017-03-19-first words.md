@@ -5,7 +5,7 @@ categories: Blog
 description: some words
 keywords: 日记
 ---
-我最近写了很多东西，工作上的，
+我最近写了很多东西，工作上的，  
 可研、方案、ppt，
 绞尽脑汁才写出一句，磨磨蹭蹭的。  
 比如说这篇。
