@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 博客样例|《追风筝的人》读书笔记
+title: 博客样例 |《追风筝的人》读书笔记
 categories: Templates
 description: 希望自己有输入必有输出，这是开篇。
 keywords: 追风筝的人，Template
