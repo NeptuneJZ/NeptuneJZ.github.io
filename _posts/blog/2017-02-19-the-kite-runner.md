@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 《追风筝的人》读书笔记
-categories: Blog
+title: 博客样例|《追风筝的人》读书笔记
+categories: Templates
 description: 希望自己有输入必有输出，这是开篇。
-keywords: 追风筝的人
+keywords: 追风筝的人，Template
 ---
 
 > 《追风筝的人》确实是一部相当优秀而又深刻的作品。——小别老师
