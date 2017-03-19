@@ -3,7 +3,7 @@ layout: post
 title: 序：从今天开始
 categories: Blog
 description: some words
-keywords: 日记
+keywords: 开始
 ---
 我最近写了很多东西，工作上的，  
 
