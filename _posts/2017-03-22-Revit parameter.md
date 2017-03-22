@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Revit参数化建模学习 
+title: Revit参数化建模学习
 categories: Revit
 description: Revit是建筑设计主流的建模工具，受益于它强大的参数化功能，建筑信息化发展迅速。
 keywords: Revit, 参数化
@@ -14,5 +14,3 @@ Revit是建筑设计主流的建模工具，受益于它强大的参数化功能
 1. Revit 参数化建族
 2. Dynamo 的使用
 3. 基于 python 的Revit 二次开发
-
-
