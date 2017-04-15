@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: LEDE 之查看UUID 
 categories: LEDE, Linux
@@ -11,7 +11,3 @@ keywords: LEDE, Linux, 挂载, UUID
 查看UUID
 
 `block info`
-
-
-
-
