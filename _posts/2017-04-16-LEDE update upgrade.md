@@ -8,7 +8,7 @@ keywords: LEDE, Linux, update, upgrade
 
 在LEDE中使用upgrade不像其他Linux可以直接批量升级软件包，所以需要使用表达式的方法。
 
-`opkg list_installed | sed 's/ - .*//' | sed 's/^/opkg upgrade /'`
+`opkg list_installed | sed 's/ - .*//' | sed 's/^/opkg upgrade /'`  
 `opkg list-upgradable | awk -F ' - ' '{print $1}' | xargs opkg upgrade`
 
 还可以写成脚本
