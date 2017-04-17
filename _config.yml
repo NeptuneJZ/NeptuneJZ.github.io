@@ -4,10 +4,10 @@
 baseurl:
 url: http://b.jzd.party
 date_format: "ordinal"
-title: 心未
-subtitle: "人心未散"
-description: "JZD的个人博客"
-keywords: 心未, 学习
+title: 吉之岛
+subtitle: "这里的黎明静悄悄"
+description: "吉之岛的个人博客"
+keywords: 人心未散, 学习
 favicon: /favicon.ico
 timezone: Asia/Shanghai
 encoding: "utf-8"
