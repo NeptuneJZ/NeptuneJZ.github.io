@@ -1,0 +1,22 @@
+language: ruby
+
+rvm:
+- 2.2.5
+
+branches:
+  only:
+  - master
+
+sudo: false
+
+before_install:
+- openssl aes-256-cbc -K $encrypted__key -iv $encrypted__iv -in myblog-194952ae9d32.json.enc -out gae.json -d
+
+script:
+- bundle exec jekyll build
+
+deploy:
+  provider: gae
+  skip_cleanup: true
+  keyfile: myblog-194952ae9d32.json
+  project: future-depth-161415

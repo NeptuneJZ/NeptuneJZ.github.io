@@ -1,0 +1,43 @@
+runtime: python27
+api_version: 1
+threadsafe: false
+
+skip_files:
+- ^(_drafts|_posts|assets|files|.sass-cache)/(.*)$
+- ^[a-zA-z]+.(xml|txt|html|md|yml|ico)$
+- Gemfile
+- gae.json
+- gae.json.enc
+
+handlers:
+- url: /
+  static_files: _site/index.html
+  upload: _site/index\.html
+  secure: always
+
+- url: /((archives|atom|categories|favicon|index|rss|sitemap|tags)\.(xml|txt|html|ico))$
+  static_files: _site/\1
+  upload: _site/.*\.(xml|txt|html|ico)$
+  secure: always
+
+- url: /assets
+  static_dir: _site/assets
+  secure: always
+
+- url: /files
+  static_dir: _site/files
+  secure: always
+
+- url: /(.+)/
+  static_files: _site/\1/index.html
+  upload: _site/.*/index\.html
+  secure: always
+
+- url: /(.*)
+  static_files: _site/404.html
+  upload: _site/404\.html
+  secure: always
+
+libraries:
+- name: webapp2
+  version: "latest"
